@@ -3,11 +3,11 @@
 	import { AppBar } from '@skeletonlabs/skeleton'
 </script>
 
-<AppBar>
-	<div class="btn-group-horizonta variant-filled">
-		<a href="/" type="button" class="btn variant-filled">home</a>
-		<a href="/sleepyhead-app" type="button" class="btn variant-filled">sleepyhead app</a>
-		<a href="/about" type="button" class="btn variant-filled">about</a>
+<AppBar background="bg-primary-500">
+	<div class="btn-group-horizonta variant-filled-primary">
+		<a href="/" type="button" class="btn variant-ringed">home</a>
+		<a href="/sleepyhead-app" type="button" class="btn variant-ringed">sleepyhead app</a>
+		<a href="/about" type="button" class="btn variant-ringed">about</a>
 	</div>
 </AppBar>
 
