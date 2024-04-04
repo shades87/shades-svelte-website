@@ -3,7 +3,7 @@
 	import star from '$lib/assets/images/star.png'
 </script>
 
-<div id="maindiv"  style="background-image: url({star}); ">
+<div id="stardiv"  style="background-image: url({star}); ">
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5 justify-center items-center" >
 		<h1 class="h1 justify-center items-center">shadyshadyshades</h1>
@@ -26,12 +26,11 @@
 		}
 	}
 
-	#maindiv {
-
+	#stardiv {
 	background-size: 5%;
-	animation: pan 180s linear infinite;
-    
+	animation: pan 180s linear infinite; 
   }
+  
 	div{
 		display: flex;
     flex-direction: column;

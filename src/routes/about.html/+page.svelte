@@ -2,12 +2,13 @@
 
 <script>
     import profile from '$lib/assets/images/grad-pic-circle.png'
+    import star from '$lib/assets/images/star.png'
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center center">
 	<div class="space-y-5 justify-center items-center center">
 		
-		<center><img alt="Daniel wearing graduation outfit" class="justify-center items-center center" src={profile} width="200"/></center>
+		<div  id="stardiv"  style="background-image: url({star}); "><center><img alt="Daniel wearing graduation outfit" class="justify-center items-center center" src={profile} width="200"/></center></div>
 
 		<p  class="space-y-5 justify-center items-center center">Meet Daniel! Daniel (BA, BEd, BComp) is a computer scientist with a passion for AI, mobile application development, and the theory behind computer science. With a keen eye for detail and a knack for problem-solving, Daniel is well-equipped to tackle complex coding challenges and bring innovative ideas to life.</p>
 
@@ -24,3 +25,21 @@
             </div></center>
 	</div>
 </div>
+
+<style>
+    @keyframes pan {
+		0% {
+			background-position: 0% 0%;
+		}
+
+		100% {
+			background-position: 100% 0%;
+		}
+	}
+
+	#stardiv {
+	background-size: 5%;
+	animation: pan 180s linear infinite; 
+  }
+  
+</style>
