@@ -7,9 +7,10 @@ const imgSrc =
 
 </script>
 
+<div class="justify-items-center">
 <a
   href="https://dl.acm.org/doi/pdf/10.1145/3701716.3715190"
-  class="mt-5 ml-5 card preset-filled-surface-100-900 border-[1px] border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+  class="mt-5 card preset-filled-surface-100-900 border-[1px] border-primary-500 card-hover divide-primary-500 block max-w-md divide-y overflow-hidden"
 >
  
   <header>
@@ -22,7 +23,7 @@ const imgSrc =
       <h3 class="h3">Personalised News Summarisation Using Demographic-aware
 BART Model</h3>
     </div>
-    <p class="opacity-60">
+    <p class="opacity-100">
       This research introduces a novel framework for personalised news summarisation
 that accounts for reader-specific factors such as age, geography, and
 cultural background.
@@ -30,7 +31,8 @@ cultural background.
   </article>
 
   <footer class="flex items-center justify-between gap-4 p-4">
-    <small class="opacity-60">Presented to ACM WWW Conference Sydney</small>
+    <small class="opacity-60">Presented to The ACM Web Conference Sydney</small>
     <small class="opacity-60">On 30th April 2025</small>
   </footer>
 </a>
+</div>
