@@ -1,5 +1,5 @@
 <script>
-
+import sydney from '$lib/assets/images/sydney.jpg'
 
 
 const imgSrc =
@@ -14,7 +14,7 @@ const imgSrc =
 >
  
   <header>
-    <img src={imgSrc} class="aspect-[21/9] w-full grayscale hue-rotate-90" alt="banner" />
+    <img src={sydney} class="aspect-[21/9] w-full grayscale hue-rotate-90" alt="banner" />
   </header>
 
   <article class="space-y-4 p-4">

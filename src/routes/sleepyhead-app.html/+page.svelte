@@ -5,10 +5,10 @@
     import moon from '$lib/assets/images/moon-background.png'
 </script>
 
-<div class="container h-full mx-auto flex justify-center items-center center">
-	<div class="space-y-5 justify-center items-center center">
-		<div id="moondiv" class="flex justify-center items-center center" style="background-image: url({moon}); ">
-		    <center><img alt="screenshot of app on android phone" src={screen} width="600"/></center>
+<div class="container h-full w-full mx-auto flex justify-center items-center">
+	<div class="space-y-5 w-full justify-center items-center">
+		<div id="moondiv" class="flex justify-center items-center h-full w-full" style="background-image: url({moon}); ">
+		    <img alt="screenshot of app on android phone" src={screen} width="600"/>
             <div>
                 <h1 class="h1 flex justify-center mb-2">Use white noise to help you sleep</h1>
                 <p>A free app designed to help you falls asleep by blocking out distracting noises</p>
