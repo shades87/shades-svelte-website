@@ -32,7 +32,7 @@ cultural background.
 
   <footer class="flex items-center justify-between gap-4 p-4">
     <small class="opacity-60">Presented to The ACM Web Conference Sydney</small>
-    <small class="opacity-60">On 30th April 2025</small>
+    <small class="opacity-60">2025</small>
   </footer>
 </a>
 </div>
