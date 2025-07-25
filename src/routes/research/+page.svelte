@@ -7,7 +7,7 @@ const imgSrc =
 
 </script>
 
-<div class="justify-items-center">
+<div class="flex justify-center">
 <a
   href="https://dl.acm.org/doi/pdf/10.1145/3701716.3715190"
   class="mt-5 card preset-filled-surface-100-900 border-[1px] border-primary-500 card-hover divide-primary-500 block max-w-md divide-y overflow-hidden"
