@@ -45,9 +45,11 @@
     </div>
 
    <div class="w-full flex justify-center mt-4">
+  <a  href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead" type="button">
   <button class="btn variant-filled-primary">
     App on Google Play
   </button>
+  </a>
 </div>
 
 </div>

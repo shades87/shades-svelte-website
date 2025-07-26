@@ -7,7 +7,7 @@
 <div class="container h-full mx-auto flex justify-center items-center center">
 	<div class="space-y-5 justify-center items-center">
 		
-		<div class="justify-items-center" id="stardiv"  style="background-image: url({star}); ">
+		<div class="justify-items-center">
 			<div class="ml-2 mr-2 mt-2 md:ml-0 md:mr-0 md:mt-5 justify-center card preset-filled-surface-100-900 border-[1px] border-primary-500 divide-primary-500 block max-w-md divide-y overflow-hidden">
 			
 			<header>
@@ -42,21 +42,3 @@
             </div></center>
 	</div>
 </div>
-
-<style>
-    @keyframes pan {
-		0% {
-			background-position: 0% 0%;
-		}
-
-		100% {
-			background-position: 100% 0%;
-		}
-	}
-
-	#stardiv {
-	background-size: 5%;
-	animation: pan 180s linear infinite; 
-  }
-  
-</style>

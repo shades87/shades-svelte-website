@@ -8,7 +8,7 @@
 <svelte:head>
   <title>Computer Scientist - Daniel McFadyen</title>
 </svelte:head>
-<div class="hidden md:block">
+<div class="hidden sm:block">
 	<AppBar background="bg-primary-500">
 	<div class="btn-group-horizontal variant-filled-primary">
 		<a href="/" type="button" class="btn variant-ringed">home</a>
@@ -23,7 +23,7 @@
 
 <slot />
 
-<div class="fixed bottom-0 left-0 w-full block md:hidden mt-5">
+<div class="fixed bottom-0 left-0 w-full block sm:hidden mt-5">
 	<TabGroup 
 	justify="justify-center"
 	active="variant-filled-primary"
