@@ -5,7 +5,7 @@
     import moon from '$lib/assets/images/moon-background.png'
 </script>
 
-<div class="container h-full w-full mx-auto flex justify-center items-center">
+<div class="hidden md:block container h-full w-full mx-auto flex justify-center items-center">
 	<div class="space-y-5 w-full justify-center items-center">
 		<div id="moondiv" class="flex justify-center items-center h-full w-full" style="background-image: url({moon}); ">
 		    <img alt="screenshot of app on android phone" src={screen} width="600"/>
@@ -33,6 +33,24 @@
         </center>
 	</div>
 </div>
+<div   class="block md:hidden">
+    <img alt="Sleepyhead app displayed on phone" src={screen}/>
+    <div class="text-center">
+        <h1 class="h1 flex justify-center mb-2">Use white noise to help you sleep</h1>
+        <p>A free app designed to help you falls asleep by blocking out distracting noises</p>
+        <p>Promotes relaxation</p>
+        <p>Creates a familiar environment</p>
+        <p>Reduces sensitivity to other sounds</p>
+        <p>Improves sleep quality</p>
+    </div>
+
+   <div class="w-full flex justify-center mt-4">
+  <button class="btn variant-filled-primary">
+    App on Google Play
+  </button>
+</div>
+
+</div>
 
 <style>
     @keyframes pan {
@@ -46,8 +64,16 @@
 	}
 
 	#moondiv {
+	background-size: 30%;
+	animation: pan 15s linear infinite; 
+  }
+
+  @media (min-width: 768px) {
+    #moondiv {
 	background-size: 5%;
 	animation: pan 180s linear infinite; 
   }
+  }
+
 </style>
 

@@ -10,7 +10,7 @@ const imgSrc =
 <div class="flex justify-center">
 <a
   href="https://dl.acm.org/doi/pdf/10.1145/3701716.3715190"
-  class="mt-5 card preset-filled-surface-100-900 border-[1px] border-primary-500 card-hover divide-primary-500 block max-w-md divide-y overflow-hidden"
+  class="ml-2 mr-2 mt-2 card preset-filled-surface-100-900 border-[1px] border-primary-500 card-hover divide-primary-500 block max-w-md divide-y overflow-hidden md:mt-5 md:mr-0 md:ml-0"
 >
  
   <header>

@@ -8,7 +8,7 @@
 	<div class="space-y-5 justify-center items-center">
 		
 		<div class="justify-items-center" id="stardiv"  style="background-image: url({star}); ">
-			<div class="mt-5 justify-center card preset-filled-surface-100-900 border-[1px] border-primary-500 divide-primary-500 block max-w-md divide-y overflow-hidden">
+			<div class="ml-2 mr-2 mt-2 md:ml-0 md:mr-0 md:mt-5 justify-center card preset-filled-surface-100-900 border-[1px] border-primary-500 divide-primary-500 block max-w-md divide-y overflow-hidden">
 			
 			<header>
 				<img src={profile} class="aspect-[21/9] w-full" alt="banner" />
