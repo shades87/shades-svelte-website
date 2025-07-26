@@ -3,6 +3,7 @@
 <script>
     import screen from '$lib/assets/images/sleepyheadappphone.png'
     import moon from '$lib/assets/images/moon-background.png'
+	import Layout from '../+layout.svelte';
 </script>
 
 <div class="hidden md:block container h-full w-full mx-auto flex justify-center items-center">
@@ -33,7 +34,7 @@
         </center>
 	</div>
 </div>
-<div   class="block md:hidden">
+<div class="block md:hidden">
     <img alt="Sleepyhead app displayed on phone" src={screen}/>
     <div class="text-center">
         <h1 class="h1 flex justify-center mb-2">Use white noise to help you sleep</h1>
@@ -44,14 +45,14 @@
         <p>Improves sleep quality</p>
     </div>
 
-   <div class="w-full flex justify-center mt-4">
-  <a  href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead" type="button">
-  <button class="btn variant-filled-primary">
-    App on Google Play
-  </button>
-  </a>
-</div>
-
+    <div class="flex justify-center items-center">
+        
+    
+    <div class="mt-2 btn-group variant-filled-primary">
+                <a href="https://play.google.com/store/apps/details?id=edu.curtin.sleepyhead" type="button" class="btn variant-filled-primary">App on Google Play</a>
+                <a href="/sleepyhead-privacy-policy.html" type="button" class="btn variant-filled-primary">Privacy policy</a>
+    </div>
+    </div>
 </div>
 
 <style>
